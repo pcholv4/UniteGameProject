@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "Protest Guerrilla", sans-serif;
+}
+.main{
+    background-color: #222228;
+    padding-bottom: 2000px;
+}
+.container{
+    max-width:1000px ;
+    margin: 0 auto;
+
+}
+.header{
+    background: gray;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+}
+.nav_link{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    color: white;
+    outline: none;
+    background: #79109d;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin: 0px 5px;
+    align-items: center;
+}
+
+.section_info{
+    color: white;
+    position: relative;
+    z-index: 1;
+   
+}
+.section1_content{
+    display: flex; 
+    padding: 150px 0px;
+    position: relative;
+}
+.pavuk{
+    border-radius: 5%;
+}
+
+
+.section_imgBox{
+    position: relative;
+    z-index: 1;
+}
+.available{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+
+}
+.section_footer{
+    display: flex;
+}
+.availableItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.availableList{
+    display: flex;
+    gap: 10px;
+}
+.elips-decor{
+    width: 300px;
+    height: 300px;
+    background: purple;
+    position: absolute;
+    border-radius: 50%;
+    right: 250px;
+    z-index: 0;
+    filter: blur(150px);
+}
+.foto{
+    display: flex;
+    gap: 500px;
+}
+
+
+.section2{
+    position: relative;
+}
+.tumba{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.umba{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.text2{
+    color: white;
+    display: flex;
+    position: relative;
+    text-align: center;
+
+    
+}
+.title-medium2{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+  
+
+}
+.qwerty{
+    position: relative;
+    width: 694px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+   
+
+ 
+    
+}
+.section2_content{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3{
+    position: relative;
+
+}
+.tekst{
+    color: white;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+.np{
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+  
+}
+.inlp{
+    font-size: 40px;
+    position: relative;
+    padding: 0px 0px 20px 0px;
+}
+.section3_content{
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+
+}
+.rowCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+.card{
+    border-radius: 5%;
+    padding: 20px 20px 20px 20px ;
+    min-height: 400px ;
+}
+.card.pink{
+ background-color: #79109d;
+
+}
+
+.card.dark{
+    background-color: rgb(63, 63, 75);
+}
+.cardImg{
+    margin-top: 50px;
+    width: 418px;
+    height: 248px;
+
+}
+.card_title{ 
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+.card_link{
+    color: white;
+    list-style: none;
+}
+.card_Img{
+    width: 232px;
+    height: 370px;
+    display: flex;
+    margin-left: 200px;
+}
